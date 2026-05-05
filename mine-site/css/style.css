@@ -8,6 +8,14 @@ body {
     background: #f5f5f5;
 }
 
+.contentMain {
+    
+    margin: 0 auto;
+    /* largura */
+    max-width: 1000px;
+    width: 100%;
+}
+
 header {
     /* Tamanho da altura */
     height: 100px;
@@ -49,4 +57,22 @@ header nav ul a {
 header nav ul a:hover {
     text-decoration: underline;
     color: orange;
+}
+.carrousel article{
+    margin-top: 20px;
+}
+.carrousel img {
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
 }
