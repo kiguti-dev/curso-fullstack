@@ -36,6 +36,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -61,8 +62,10 @@ header nav ul a:hover {
 .carrousel article{
     margin-top: 20px;
 }
+
 .carrousel img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .cards{
@@ -75,4 +78,7 @@ header nav ul a:hover {
 .card {
     background: white;
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
 }
