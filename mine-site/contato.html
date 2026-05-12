@@ -24,7 +24,7 @@
             <main class="contentMain paginaContato">
                 <h1>Página Contato</h1>
                 <section>
-                    <form>
+                    <form id="meuFormulario">
                         <article class="form-group">
                             <label for="nome">Nome</label>
                             <input type="text" id="nome">
@@ -32,12 +32,12 @@
 
                         <article class="form-group">
                             <label for="telefone">Telefone</label>
-                            <input type="tel" id="telefone">
+                            <input type="number" id="telefone">
                         </article>
 
                         <article class="form-group"></article>
                             <label for="sexo">Sexo</label>
-                            <select name="" id="">
+                            <select id="sexo">
                                 <option value="m">Masculino</option>
                                 <option value="f">Feminino</option>
                             </select>
@@ -45,12 +45,12 @@
 
                         <article>
                             <h1>Deseja receber informações</h1>
-                            <label for="">Sim?</label>
+                            <label for="s">Sim?</label>
                             <input type="checkbox" id="s" />
                         </article>
                         
                         <article class="form-group">
-                            <button>Enviar</button>
+                            <button type="submit">Enviar</button>
                         </article>
                     </form>
                 </section>
@@ -60,4 +60,8 @@
                     <p>@ 2026 MC Maquinas</p>
                 </footer>
             </main>
+
+            </div>
+            <script src="js/validacao.js"></script>
             </body>
+            </html>

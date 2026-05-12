@@ -134,3 +134,49 @@ form button {
   color: white;
   cursor: pointer;
 }
+
+.paginaCadastro h1 {
+    color: #191970;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+/* Formulário */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form .titulo-checkbox {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(39, 39, 234);
+  color: white;
+  cursor: pointer;
+}
